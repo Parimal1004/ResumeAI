@@ -121,13 +121,13 @@ async def analyze_resume(file: UploadFile = File(...)):
             detail=f"Could not extract PDF content: {str(e)}"
         )
 
-if not text or len(text.strip()) < 50:
-    raise HTTPException(
-        status_code=422,
-        detail="No readable text found in the PDF. Please ensure the PDF is not scanned/image-only.",
-    )
+    if not text or len(text.strip()) < 50:
+        raise HTTPException(
+            status_code=422,
+            detail="No readable text found in the PDF. Please ensure the PDF is not scanned/image-only.",
+        )
 
-resume_info = services.extract_resume_info(text, pdf_links)
+    resume_info = services.extract_resume_info(text, pdf_links)
     quality = services.compute_resume_quality_score(text, resume_info)
 
     return {
@@ -136,7 +136,6 @@ resume_info = services.extract_resume_info(text, pdf_links)
         "resume_info": resume_info,
         "quality": quality,
     }
-
 
 @app.post("/analyze-job")
 async def analyze_job(request: JobRequest):
