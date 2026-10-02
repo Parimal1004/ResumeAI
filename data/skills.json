@@ -1,0 +1,84 @@
+{
+  "programming_languages": [
+    "Python", "Java", "JavaScript", "TypeScript", "C", "C++", "C#", "Go", "Rust",
+    "Ruby", "PHP", "Swift", "Kotlin", "Scala", "R", "MATLAB", "Perl", "Shell",
+    "Bash", "PowerShell", "SQL", "HTML", "CSS", "SASS", "LESS"
+  ],
+  "data_science": [
+    "NumPy", "Pandas", "Matplotlib", "Seaborn", "Plotly", "Scipy", "Statsmodels",
+    "Jupyter", "Anaconda", "Data Analysis", "Data Visualization", "Statistical Analysis",
+    "Feature Engineering", "Data Cleaning", "Data Wrangling", "EDA", "A/B Testing",
+    "Data Mining", "Business Intelligence", "Tableau", "Power BI", "Excel"
+  ],
+  "machine_learning": [
+    "Machine Learning", "Deep Learning", "Neural Networks", "Natural Language Processing",
+    "Computer Vision", "Reinforcement Learning", "Transfer Learning", "Supervised Learning",
+    "Unsupervised Learning", "Scikit-learn", "XGBoost", "LightGBM", "CatBoost",
+    "Random Forest", "Decision Tree", "SVM", "Logistic Regression", "Linear Regression",
+    "K-Means", "DBSCAN", "PCA", "t-SNE", "UMAP", "Gradient Boosting",
+    "Feature Selection", "Model Evaluation", "Cross Validation", "Hyperparameter Tuning",
+    "MLflow", "Weights & Biases", "DVC"
+  ],
+  "deep_learning": [
+    "TensorFlow", "Keras", "PyTorch", "ONNX", "JAX", "Hugging Face", "Transformers",
+    "BERT", "GPT", "ResNet", "VGG", "YOLO", "GAN", "VAE", "LSTM", "GRU",
+    "Attention Mechanism", "CNN", "RNN", "Embedding", "Fine-tuning", "Prompt Engineering",
+    "LLM", "Stable Diffusion", "OpenCV", "PIL", "Pillow"
+  ],
+  "nlp": [
+    "NLP", "spaCy", "NLTK", "TextBlob", "Gensim", "FastText", "Word2Vec", "GloVe",
+    "Named Entity Recognition", "Sentiment Analysis", "Text Classification",
+    "Text Generation", "Machine Translation", "Summarization", "Topic Modeling",
+    "Information Extraction", "Question Answering", "Chatbot"
+  ],
+  "web_technologies": [
+    "React", "Angular", "Vue.js", "Next.js", "Node.js", "Express.js", "Django",
+    "Flask", "FastAPI", "Spring Boot", "ASP.NET", "Laravel", "Rails", "GraphQL",
+    "REST API", "WebSocket", "JWT", "OAuth", "Bootstrap", "Tailwind CSS",
+    "Webpack", "Babel", "Redux", "Streamlit", "Gradio", "Dash"
+  ],
+  "databases": [
+    "MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis", "Elasticsearch",
+    "Cassandra", "DynamoDB", "Firebase", "Oracle", "MS SQL Server", "MariaDB",
+    "Neo4j", "InfluxDB", "Pinecone", "ChromaDB", "Vector Database",
+    "SQLAlchemy", "Prisma", "Mongoose", "Hibernate"
+  ],
+  "cloud": [
+    "AWS", "GCP", "Azure", "Google Cloud", "Amazon Web Services",
+    "EC2", "S3", "Lambda", "RDS", "ECS", "EKS", "SageMaker",
+    "GKE", "Cloud Run", "BigQuery", "Azure ML", "Azure DevOps",
+    "Heroku", "Vercel", "Netlify", "DigitalOcean"
+  ],
+  "devops": [
+    "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Jenkins", "GitLab CI",
+    "Terraform", "Ansible", "Helm", "ArgoCD", "Prometheus", "Grafana",
+    "Linux", "Unix", "Git", "GitHub", "GitLab", "Bitbucket",
+    "Nginx", "Apache", "Load Balancing", "Microservices", "Serverless"
+  ],
+  "tools": [
+    "Postman", "Swagger", "VS Code", "PyCharm", "IntelliJ", "Eclipse",
+    "Jira", "Confluence", "Notion", "Slack", "Figma", "Adobe XD",
+    "Vim", "Emacs", "tmux", "Makefile", "pre-commit", "black", "pylint", "flake8"
+  ],
+  "aliases": {
+    "ML": "Machine Learning",
+    "DL": "Deep Learning",
+    "NLP": "Natural Language Processing",
+    "CV": "Computer Vision",
+    "RL": "Reinforcement Learning",
+    "JS": "JavaScript",
+    "TS": "TypeScript",
+    "PY": "Python",
+    "TF": "TensorFlow",
+    "PT": "PyTorch",
+    "SK": "Scikit-learn",
+    "SK-LEARN": "Scikit-learn",
+    "SKLEARN": "Scikit-learn",
+    "HF": "Hugging Face",
+    "GH": "GitHub",
+    "GCP": "Google Cloud",
+    "AWS": "Amazon Web Services",
+    "k8s": "Kubernetes",
+    "K8S": "Kubernetes"
+  }
+}
